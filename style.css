@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto 2em; 
+    background-color:whitesmoke;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree';
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+/* header starts */
+header{
+    display: grid;
+    place-items: center;
+    margin: 1em;
+}
+header h1{
+    color: hsl(210, 10%, 33%);
+}
+header h5{
+    color: hsl(201, 11%, 66%);
+}
+.header .buttons{
+    display: flex;
+    margin: 1em 2em;
+} 
+.header button{
+    display: flex;
+    padding: 1em 1.5em;
+    margin-left: 1em;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.buttons .iOS{
+    border: 1px solid hsl(171, 66%, 44%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(171, 66%, 44%);
+}
+.buttons .Mac{
+    border: 1px solid hsl(233, 100%, 69%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(233, 100%, 69%);
+}
+.head-inside h5{
+    text-align: center;
+}
+.head-inside{
+    display: grid;
+    place-items: center;
+}
+/* header ends */
+/* main starts */
+main section h2{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+.clip{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 2em;
+}
+.computer{
+    width: 600px;
+}
+.main-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-2b h4{
+    color: hsl(210, 10%, 33%);
+}
+.main-2b h5{
+    color: hsl(201, 11%, 66%);
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 300px;
+}
+/* section2 starts */
+.section2 div{
+    margin: 2.5em;
+    text-align: center;
+}
+.section2 h2{
+    color: hsl(210, 10%, 33%);
+}
+.section2 h5, .last-mid h5{
+    color: hsl(201, 11%, 66%);   
+}
+.section2b img{
+    width: 600px;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blacklists h5{
+    width: 400px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+.last-mid{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.buttons-2{
+    margin-top: 1em;
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.buttons-2 .iOS{
+    border: 1px solid hsl(171, 66%, 44%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 1em;
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.buttons-2 .Mac{
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    border: 1px solid hsl(233, 100%, 69%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(233, 100%, 69%);
+    cursor: pointer;
+}
+/* section2 ends */
+/* main ends */
+/* footer starts */
+.footer{
+    background-color: hsl(210, 10%, 33%);
+    height: 100px;
+    opacity: 50%;
+}
+.footer-cont{
+    display: flex;
+    text-align: center;
+}
+a{
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    margin-top: 2em;   
+}
+.svgs{
+    display: flex;
+    color: hsl(0, 0%, 100%);
+}
+/* footer ends */
